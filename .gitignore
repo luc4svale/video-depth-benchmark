@@ -1,0 +1,19 @@
+# Raw TUM RGB-D downloads (large, regeneratable via scripts/download_tum_raw.py
+# -- only relevant if regenerating data/processed/ from scratch)
+data/tum_raw/
+data/rgbd_dataset_*/
+*.tgz
+
+# Note: everything actually needed to reproduce results IS committed on
+# purpose: data/processed/ (videos + ground-truth depth + pairing),
+# data/qualitative/bumba_meu_boi.mp4, and predictions/. Do not add blanket
+# *.mp4 / *.npy / *.npz ignore rules here.
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+venv/

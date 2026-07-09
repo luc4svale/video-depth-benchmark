@@ -1,0 +1,5 @@
+model,sequence,AbsRel,RMSE,delta1,TAE
+DepthCrafter,freiburg1_desk,0.0911,0.3011,0.9595,0.0385
+DepthCrafter,freiburg2_desk,0.1032,0.4202,0.9237,0.0431
+DepthCrafter,freiburg3_office,0.0711,0.3185,0.9547,0.0330
+DepthCrafter,MEDIA,0.0885,0.3466,0.9460,0.0382

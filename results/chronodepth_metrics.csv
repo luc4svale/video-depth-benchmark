@@ -1,0 +1,5 @@
+model,sequence,AbsRel,RMSE,delta1,TAE
+ChronoDepth,freiburg1_desk,0.1404,0.5476,0.8747,0.0373
+ChronoDepth,freiburg2_desk,0.1779,0.5840,0.7107,0.0189
+ChronoDepth,freiburg3_office,0.0843,0.3295,0.9378,0.0169
+ChronoDepth,MEDIA,0.1342,0.4870,0.8411,0.0244

@@ -1,0 +1,9 @@
+# Shared dependencies for dataset preparation and evaluation.
+# Each model (VDA, DepthCrafter, ChronoDepth) has its own additional
+# requirements installed from its own repository — see README.md.
+
+numpy
+opencv-python
+pillow
+matplotlib
+pandas
